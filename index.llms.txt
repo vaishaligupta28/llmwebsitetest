@@ -1,0 +1,109 @@
+# OmniSphere
+
+> Unified Digital Intelligence Platform - The all-in-one SaaS ecosystem that connects automation, analytics, and artificial intelligence.
+
+OmniSphere is a comprehensive platform that combines business automation, analytics, and AI services into a unified ecosystem. The platform is built on a four-layer architecture (Data Ingestion, Processing, Storage, and Delivery) designed for enterprise-grade operations.
+
+Important notes:
+- Platform uses a four-layer architecture for data flow
+- Supports multiple data sources: APIs, batch upload, streaming (AWS SQS, Active MQ)
+- AI credits are consumed per inference and training cycle
+- Three pricing tiers available: Starter, Business, and Enterprise
+
+## Navigation
+
+- [Home](https://omnisphere.ai/): Welcome to OmniSphere
+- [Platform](https://omnisphere.ai/platform): Core platform overview
+- [Pricing](https://omnisphere.ai/pricing): View pricing plans and features
+- [Contact](https://omnisphere.ai/contact): Contact information and global offices
+
+## Platform Features
+
+### Automation
+- [Automation Overview](https://omnisphere.ai/platform/automation): Business automation capabilities
+- [Analytics](https://omnisphere.ai/platform/analytics): Analytics platform features
+- [Security](https://omnisphere.ai/platform/security): Security features and compliance
+
+### Analytics
+- [Real-time Insights](https://omnisphere.ai/platform/analytics/real-time): Live data monitoring and instant analytics
+- [AI Forecasting](https://omnisphere.ai/platform/analytics/forecasting): Machine learning-powered predictive analytics
+
+## Core Capabilities
+
+### Business Automation
+- [Workflow Engines](https://omnisphere.ai/capabilities/automation/workflows): Automated business process management
+- [Integration Layer](https://omnisphere.ai/capabilities/automation/integration): Connect with external systems
+- [REST APIs](https://omnisphere.ai/capabilities/automation/integration/rest): RESTful API integration
+- [Webhooks](https://omnisphere.ai/capabilities/automation/integration/webhooks): Event-driven webhook integration
+- [Event Streams](https://omnisphere.ai/capabilities/automation/integration/streams): AWS SQS and Active MQ streaming
+
+### Analytics Platform
+- [Dashboards](https://omnisphere.ai/capabilities/analytics/dashboards): Customizable data visualization dashboards
+- [Reporting](https://omnisphere.ai/capabilities/analytics/reporting): Business intelligence reporting
+- [Scheduled Reports](https://omnisphere.ai/capabilities/analytics/reporting/scheduled): Automated report generation
+- [Custom Exports](https://omnisphere.ai/capabilities/analytics/reporting/exports): Export data in multiple formats
+
+### AI Services
+- [Predictive Models](https://omnisphere.ai/capabilities/ai/predictive): Machine learning models for forecasting
+- [NLP Engines](https://omnisphere.ai/capabilities/ai/nlp): Natural language processing capabilities
+- [Document Parsing](https://omnisphere.ai/capabilities/ai/nlp/parsing): Intelligent document extraction
+- [Chatbots](https://omnisphere.ai/capabilities/ai/nlp/chatbots): Conversational AI interfaces
+- [Semantic Search](https://omnisphere.ai/capabilities/ai/nlp/search): Context-aware search functionality
+
+## Platform Architecture
+
+### Layer 1 — Data Ingestion
+- [APIs](https://omnisphere.ai/architecture/ingestion/api): API-based data ingestion
+- [Batch Upload](https://omnisphere.ai/architecture/ingestion/batch): Bulk data upload capabilities
+- [Streaming](https://omnisphere.ai/architecture/ingestion/streaming): Real-time data streaming with AWS SQS and Active MQ
+
+### Layer 2 — Processing
+- [Rule Engine](https://omnisphere.ai/architecture/processing/rules): Business rule processing
+- [AI Processing](https://omnisphere.ai/architecture/processing/ai): Machine learning pipelines
+- [ML Pipelines](https://omnisphere.ai/architecture/processing/ai/pipelines): End-to-end ML workflows
+- [Model Training](https://omnisphere.ai/architecture/processing/ai/training): Train custom AI models
+- [Streaming Engines](https://omnisphere.ai/architecture/processing/ai/streaming): Real-time AI processing
+
+### Layer 3 — Storage
+- [NoSQL Datastores](https://omnisphere.ai/architecture/storage/nosql): Scalable NoSQL databases
+- [Object Storage](https://omnisphere.ai/architecture/storage/object): S3-compatible object storage
+- [File Storage](https://omnisphere.ai/architecture/storage/file): Traditional file system storage
+- [Relational Database DBMS](https://omnisphere.ai/architecture/storage/rdbms): SQL database management
+
+### Layer 4 — Delivery
+- [Web Dashboards](https://omnisphere.ai/architecture/delivery/web): Browser-based dashboard interfaces
+- [Mobile Apps](https://omnisphere.ai/architecture/delivery/mobile): Native mobile applications
+- [Third-party APIs](https://omnisphere.ai/architecture/delivery/api): Integration with external services
+- [Webhooks Delivery](https://omnisphere.ai/architecture/delivery/webhooks): Push data via webhooks
+- [SQS and S3 Push](https://omnisphere.ai/architecture/delivery/push): AWS service integration for data delivery
+
+## Pricing Plans
+
+### Starter Plan
+- 5 users
+- 50GB storage
+- 1,000 AI credits
+- [Details](https://omnisphere.ai/pricing/starter)
+
+### Business Plan
+- 50 users
+- 10TB storage
+- 50,000 AI credits
+- [Details](https://omnisphere.ai/pricing/business)
+
+### Enterprise Plan
+- Unlimited users
+- Unlimited storage
+- Unlimited AI credits
+- Custom configuration
+- [Details](https://omnisphere.ai/pricing/enterprise)
+
+## Contact Information
+
+- Support Email: support@omnisphere.ai
+- Sales Email: sales@omnisphere.ai
+
+### Global Offices
+- California, USA
+- London, UK
+- Mumbai, India
