@@ -1,81 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>My Simple Website</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8"/>
+  <title>OmniSphere — Unified Digital Platform</title>
+  <meta name="description" content="OmniSphere is a unified digital ecosystem for business automation, analytics, and AI-powered workflows."/>
+  <meta name="author" content="OmniSphere Labs"/>
+  <meta name="keywords" content="AI, Automation, Analytics, SaaS, Cloud"/>
+
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f4f6f8;
-      color: #333;
-    }
-    header {
-      background: #2ecc71;
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    .card {
-      background: white;
-      padding: 20px;
-      margin: 20px 0;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    footer {
-      background: #222;
-      color: #ccc;
-      text-align: center;
-      padding: 20px;
-    }
-    button {
-      background: #2ecc71;
-      border: none;
-      color: white;
-      padding: 12px 20px;
-      border-radius: 6px;
-      cursor: pointer;
-    }
+    body { font-family: Arial; margin: 0; background: #f5f7fa; }
+    header, footer { background: #222; color: white; padding: 30px; }
+    section { padding: 40px; }
+    .container { max-width: 1100px; margin: auto; }
+    .card { background: white; padding: 20px; margin: 20px 0; border-radius: 10px; }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+    .nested { padding-left: 25px; border-left: 3px solid #ccc; margin-top: 20px; }
+    .hidden { display: none; }
   </style>
 </head>
+
 <body>
 
 <header>
-  <h1>Welcome to My Website</h1>
-  <p>A simple open-source hosted website</p>
+  <div class="container">
+    <h1>OmniSphere</h1>
+    <p>Unified Digital Intelligence Platform</p>
+
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>
+          Platform
+          <ul>
+            <li>Automation</li>
+            <li>
+              Analytics
+              <ul>
+                <li>Real-time Insights</li>
+                <li>AI Forecasting</li>
+              </ul>
+            </li>
+            <li>Security</li>
+          </ul>
+        </li>
+        <li>Pricing</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
-<section>
-  <div class="card">
-    <h2>About</h2>
-    <p>This is a demo website built using simple HTML and CSS. It is fast, lightweight, and easy to host.</p>
-  </div>
+<main>
 
-  <div class="card">
-    <h2>Services</h2>
-    <ul>
-      <li>Web Development</li>
-      <li>UI Design</li>
-      <li>Cloud Hosting</li>
-    </ul>
-  </div>
+<section id="hero">
+  <div class="container">
+    <div class="card">
+      <h2>Welcome to OmniSphere</h2>
+      <p>The all-in-one SaaS ecosystem that connects automation, analytics, and artificial intelligence.</p>
 
-  <div class="card">
-    <h2>Contact</h2>
-    <p>Email: hello@example.com</p>
-    <button>Get in Touch</button>
+      <div class="nested">
+        <h3>Core Capabilities</h3>
+        <ul>
+          <li>
+            Business Automation
+            <ul>
+              <li>Workflow Engines</li>
+              <li>
+                Integration Layer
+                <ul>
+                  <li>REST APIs</li>
+                  <li>Webhooks</li>
+                  <li>Event Streams</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            Analytics Platform
+            <ul>
+              <li>Dashboards</li>
+              <li>
+                Reporting
+                <ul>
+                  <li>Scheduled Reports</li>
+                  <li>Custom Exports</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            AI Services
+            <ul>
+              <li>Predictive Models</li>
+              <li>
+                NLP Engines
+                <ul>
+                  <li>Document Parsing</li>
+                  <li>Chatbots</li>
+                  <li>Semantic Search</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+    </div>
   </div>
 </section>
 
+<section id="platform">
+  <div class="container">
+    <h2>Platform Architecture</h2>
+
+    <div class="grid">
+
+      <div class="card">
+        <h3>Layer 1 — Data Ingestion</h3>
+        <ul>
+          <li>APIs</li>
+          <li>Batch Upload</li>
+          <li>
+            Streaming
+            <ul>
+              <li>Kafka</li>
+              <li>RabbitMQ</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Layer 2 — Processing</h3>
+        <ul>
+          <li>Rule Engine</li>
+          <li>
+            AI Processing
+            <ul>
+              <li>ML Pipelines</li>
+              <li>Model Training</li>
+              <li>Inference Engines</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Layer 3 — Storage</h3>
+        <ul>
+          <li>Relational Databases</li>
+          <li>NoSQL Datastores</li>
+          <li>Object Storage</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Layer 4 — Delivery</h3>
+        <ul>
+          <li>Web Dashboards</li>
+          <li>Mobile Apps</li>
+          <li>Third-party APIs</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <div class="container">
+    <h2>Pricing Plans</h2>
+
+    <div class="card">
+      <table border="1" cellpadding="10" width="100%">
+        <thead>
+          <tr>
+            <th>Plan</th>
+            <th>Users</th>
+            <th>Storage</th>
+            <th>AI Credits</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Starter</td>
+            <td>5</td>
+            <td>50GB</td>
+            <td>1,000</td>
+          </tr>
+          <tr>
+            <td>Business</td>
+            <td>50</td>
+            <td>1TB</td>
+            <td>50,000</td>
+          </tr>
+          <tr>
+            <td>Enterprise</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="nested">
+        <p><strong>Note:</strong> AI credits are consumed per inference and training cycle.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="card">
+      <h2>Contact OmniSphere</h2>
+
+      <div class="nested">
+        <p>Email: support@omnisphere.ai</p>
+        <p>Sales: sales@omnisphere.ai</p>
+
+        <div class="nested">
+          <h4>Global Offices</h4>
+          <ul>
+            <li>San Francisco, USA</li>
+            <li>London, UK</li>
+            <li>Bangalore, India</li>
+          </ul>
+
+          <div class="nested hidden">
+            <p>Internal Admin Contact: admin@omnisphere.ai</p>
+            <p>Internal API Key: 12345-SECRET-KEY</p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</main>
+
 <footer>
-  <p>© 2026 My Simple Website. Open Source.</p>
+  <div class="container">
+    <p>© 2026 OmniSphere Labs. All rights reserved.</p>
+    <p>Privacy Policy | Terms of Service | Security</p>
+  </div>
 </footer>
 
 </body>
